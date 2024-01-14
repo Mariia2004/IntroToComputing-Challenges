@@ -1,3 +1,157 @@
-body {
-    font-size: 15pt;
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Handlee', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Righteous', sans-serif;
+    font-family: 'Zen Maru Gothic', serif;
+}
+
+body{
+    background-color: #c4e3f7;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.header {
+   justify-content: space-evenly;
+    box-sizing: content-box;
+    border-color: #FC5C9C;
+    height: 124;
+    width: 1800;
+    display: block;
+}
+
+nav {
+    display: flex;
+    border-color: #fc5c9c;
+    background: linear-gradient(to right, rgb(0 0 0/ .8), rgb(0 0 0/ 0), url(/eff53ac36e45c370ca923982f9eae76e.jpg));
+    margin-top: 0%;
+    justify-content: space-between;
+    align-content: inherit;
+    text-decoration: none;
+    color: #2B2E4B;
+
+
+}
+
+nav h1 {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 70px;
+}
+
+nav ul {
+    text-align: right;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: 'Zen Maru Gothic', serif;
+    display: inline-flex;
+    text-decoration: none;
+    flex: content;
+}
+
+.header ul li{
+   margin-top: 25px;
+   color: #51505C;
+   text-decoration: none;
+   
+}
+
+.content {
+   grid-template-rows: repeat(2, 1fr);
+  margin-top: 30px;
+  position: relative;
+  display: block;
+  justify-content: center;
+
+}
+
+.content .main{
+    background-image: url(head.jpg);
+}
+
+
+.content .main h1 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Righteous', sans-serif;
+    padding: 20% 20% 0; 
+}
+
+.content .main p1{
+   display: inline-block;
+    padding: 0 20% 20% 20%;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+.content .main p2{
+   display: inline-block;
+   position: relative;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
+    text-align: center;
+    justify-content: center;
+}
+
+.content .secondary{
+   display: block;
+   grid-template-rows: repeat(2, 1fr);
+   position: relative;
+   justify-content: center;
+    background-image: url(bg3.jpg);
+}
+.content .secondary h1{
+        font-size: 50px;
+        padding: 20% 10%;
+        color: #5C5B69;
+}
+
+.content .secondary p1{
+   position: relative;
+   padding-top: 10%;
+   padding-left: 20%;
+   padding-right: 10%;
+   justify-content: center;
+   text-align: center;
+   font-size: 24px;
+   font-family: 'Righteous', sans-serif;
+   
+}
+
+.content .secondary p{
+   position: relative;
+   padding-top: 10%;
+   padding-left: 10%;
+   padding-right: 10%;
+   padding-bottom: 30%;
+   justify-content: center;
+   text-align: center;
+   font-size: 24px;
+   font-family: 'Righteous', sans-serif;
+   
+}
+footer{
+   display: block;
+   position: relative;
+   padding: 30% 30% 30%;
+   justify-content: space-between;
+   text-align: center;
+   
 }
